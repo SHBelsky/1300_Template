@@ -1,0 +1,68 @@
+/**
+* This file provides the general structure of this site.
+* There is no "minimal" version of this file; what you see is exactly what's included on your site.
+*/
+body {
+  background-color: white;
+}
+
+/* Site Template */
+#title h1 {
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  margin: 0 auto;
+  width: 80%;
+}
+
+nav ul {
+  background-color: #b31b1b;
+  margin: 0 auto 10px auto;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+nav li {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 auto;
+  padding: 0 5%;
+  transition: 0.3s;
+}
+
+nav li:hover {
+  background-color: #D33939;
+  transition: 0.3s;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Content Container */
+#container {
+  background-color: rgba(200,200,200,0.5);
+  display: block;
+  font-size: 18px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 5%;
+  width: 70%;
+}
+
+/* Footer */
+footer {
+  background-color: #CECECE;
+  color: grey;
+  display: block;
+  font-size: 10px;
+  margin: 10px auto 0 auto;
+  padding: 10px 0;
+  text-align: center;
+  width: 80%;
+}
