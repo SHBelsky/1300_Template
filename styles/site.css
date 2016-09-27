@@ -2,8 +2,10 @@
 * This file provides the general structure of this site.
 * There is no "minimal" version of this file; what you see is exactly what's included on your site.
 */
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
 body {
   background-color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Site Template */
@@ -13,19 +15,14 @@ body {
 
 /* Navigation */
 nav {
-  margin: 0 auto;
-  width: 80%;
-}
-
-nav ul {
   background-color: #b31b1b;
   margin: 0 auto 10px auto;
   padding: 0;
   text-align: center;
-  width: 100%;
+  width: 80%;
 }
 
-nav ul li a {
+nav a {
   color: white;
   display: inline-block;
   height: 50px;
@@ -36,7 +33,7 @@ nav ul li a {
   transition: 0.3s;
 }
 
-nav ul li a:hover {
+nav a:hover {
   background-color: #D33939;
   transition: 0.3s;
 }
