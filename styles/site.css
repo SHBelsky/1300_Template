@@ -25,7 +25,7 @@ nav ul {
   width: 100%;
 }
 
-nav li {
+nav ul li {
   display: inline-block;
   height: 50px;
   line-height: 50px;
@@ -34,12 +34,12 @@ nav li {
   transition: 0.3s;
 }
 
-nav li:hover {
+nav ul li:hover {
   background-color: #D33939;
   transition: 0.3s;
 }
 
-nav li a {
+nav ul li a {
   color: white;
   text-decoration: none;
 }
